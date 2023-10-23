@@ -15,6 +15,7 @@ fun main(args: Array<String>) {
     interfaceSegregationExample()
     dependancyInversionExample()
     factoryExample()
+    println("---- fin ----")
 
 }
 
