@@ -1,14 +1,5 @@
+## Kotlin
 
-Run the whole thing:
+For the love of Kotlin is a repo I am using while trying to learn Kotlin. 
 
-```
-./gradlew run
-```
 
-Run the tests:
-
-```
-./gradlew test
-./gradlew test --info
-./gradlew test --debug
-```

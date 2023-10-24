@@ -38,8 +38,8 @@ fun deSerializeWithJackson(){
     """
 
     val personsFromJson: Array<Person> = objectmapper.readValue(jsonPersons)
-    for (item in personsFromJson)
-        println(item)
+    for (person in personsFromJson)
+        println(person)
 }
 
 
