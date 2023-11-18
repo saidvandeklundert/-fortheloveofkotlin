@@ -1,7 +1,6 @@
 import serialization.*
-import java.io.File
-import java.io.InputStream
-import java.nio.charset.Charset
+
+
 
 //./gradlew run
 fun main(args: Array<String>) {
@@ -11,8 +10,6 @@ fun main(args: Array<String>) {
     deSerializeWithJackson()
     deSerializeWithJacksonFromFile()
     println("serialize:")
-
     serializeWithJackson()
-
 
 }
